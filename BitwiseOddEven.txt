@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class BitwiseOrOddEven{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter a number:");
+int n=sc.nextInt();
+if((n|1)==n)  //OR
+if((n&1)==1)  //AND
+if((n^1)<n)   //XOR
+{
+System.out.println("The given number is Odd");
+}
+else{
+System.out.println("The given number is Even");
+}
+}
+}
+
+(or)
+
+if((n|1)>n)  //OR
+if((n&1)==0) //AND
+if((n^1)>n)  //XOR
+{
+System.out.println("The given number is Even");
+}
+else{
+System.out.println("The given number is Odd");
+}
